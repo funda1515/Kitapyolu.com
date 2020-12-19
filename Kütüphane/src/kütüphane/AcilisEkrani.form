@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="sifre_islem" pref="153" max="32767" attributes="0"/>
+                  <Component id="kitap_islem" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="UyeIslemleri" max="32767" attributes="0"/>
+                  <Component id="geciken_kitap" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="emanet_islem" max="32767" attributes="0"/>
+                  <Component id="cıkıs" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="72" pref="72" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="UyeIslemleri" alignment="3" min="-2" pref="139" max="-2" attributes="0"/>
+                      <Component id="kitap_islem" alignment="3" min="-2" pref="139" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="emanet_islem" alignment="1" min="-2" pref="139" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="sifre_islem" max="32767" attributes="0"/>
+                  <Component id="geciken_kitap" max="32767" attributes="0"/>
+                  <Component id="cıkıs" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="390" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="kitap_islem">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kitap &#x130;&#x15f;lemleri"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kitap_islemActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="UyeIslemleri">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xdc;ye &#x130;&#x15f;lemleri"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UyeIslemleriActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="emanet_islem">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Emanet &#x130;&#x15f;lemleri"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="sifre_islem">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="G&#xfc;venlik &#x130;&#x15f;lemleri"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sifre_islemActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="geciken_kitap">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="S&#xfc;resi Dolmu&#x15f; Kitaplar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="c&#x131;k&#x131;s">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="33" red="33" type="rgb"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/k&#xfc;t&#xfc;phane/&#xe7;&#x131;k&#x131;&#x15f;.PNG"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xc7;&#x131;k&#x131;&#x15f;"/>
+        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[100, 100]"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[100, 100]"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[100, 100]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c&#x131;k&#x131;sActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
